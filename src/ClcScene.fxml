@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="346.0" prefWidth="218.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller">
+   <children>
+      <Button fx:id="b7" layoutX="13.0" layoutY="141.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" text="7">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="b8" layoutX="63.0" layoutY="141.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" text="8">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="b9" layoutX="113.0" layoutY="141.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" text="9">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="bMul" layoutX="163.0" layoutY="141.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" text="*">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="bDiv" layoutX="163.0" layoutY="191.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" text="/">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="b5" layoutX="63.0" layoutY="191.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" text="5">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="b4" layoutX="13.0" layoutY="191.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" text="4">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="b6" layoutX="113.0" layoutY="191.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" text="6">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="bRaz" layoutX="163.0" layoutY="291.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" text="-">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="b0" layoutX="63.0" layoutY="291.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" text="0">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="bAns" layoutX="113.0" layoutY="291.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" text="=">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="bSum" layoutX="163.0" layoutY="241.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" text="+">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="bDot" layoutX="13.0" layoutY="291.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" text=".">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="b2" layoutX="63.0" layoutY="241.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" text="2">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="b1" layoutX="13.0" layoutY="241.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" text="1">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="b3" layoutX="113.0" layoutY="241.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" text="3">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <TextField fx:id="lcd" alignment="CENTER_RIGHT" editable="false" layoutX="25.0" layoutY="35.0" prefHeight="40.0" prefWidth="179.0">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </TextField>
+      <Button fx:id="bClr" layoutX="164.0" layoutY="90.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" text="С">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="bRM" layoutX="13.0" layoutY="90.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" text="RM">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="bMpl" layoutX="114.0" layoutY="90.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" text="M+">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="bMmin" layoutX="64.0" layoutY="90.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="40.0" text="M-">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Button>
+      <Label fx:id="memInd" layoutX="14.0" layoutY="35.0" prefHeight="15.0" prefWidth="12.0" text="M" visible="false" />
+      <Label fx:id="errInd" layoutX="14.0" layoutY="55.0" prefHeight="15.0" prefWidth="12.0" text="E" visible="false" />
+   </children>
+</Pane>
